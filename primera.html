@@ -4,13 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="Breve descripcion de la pagina">
     <title>intel-ligencia artificial</title>
+    <link rel="stylesheet" href="estils.css">
+
 </head>
+
 <body>
-    <header></header>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="https://www.lovart.ai" target="_blank"> <strong>Lovart.ai</strong></a></li>
+                <li> <a href="https://www.chatgpt.com" target="_blank"> <strong>Chat GPT</strong></a></li>
+                <li> <a href="https://www.grok.com" target="_blank"> <strong>Grok</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <section></section>
-        <section></section>
+        <section>
+            <h1>Intel·ligència Artificial</h1>
+            <article>
+                <h2>Lovart.ai</h2>
+                <p><a href="https://www.lovart.ai" target="_blank"> <strong>Lovart.ai</strong></a> es una pàgina web
+                    basada
+                    en la IA de google Nano Banana, no obstant millora de manera
+                    significativa la propia IA de google, ja que implementa millores a partir d'altres IA's utilitzant
+                    l'anomenat "Machine Learning."</p>
+                    <img src="imatges/LovartAi.webp" width="100px" height="100px" title="Logo LovartAi" alt="Logo LovartAi"/>
+            </article>
+            <article>
+                <h2>Chat GPT</h2>
+                <p><a href="https://www.chatgpt.com" target="_blank"> <strong>Chat GPT</strong></a> es una pàgina web
+                    desenvolupada per l'organització sense ànim de lucre "OpenAI." Aquesta IA es la més famosa, ajudant
+                    a
+                    escriure textos, ajudant amb receptes a la cuina o amb la programació; les possibilitats son casi
+                    infinites.</p>
+                    <img src="imatges/ChatGPT.webp" width="100px" height="100px" title="Logo ChatGPT" alt="Logo ChatGPT"/>
+            </article>
+            <article>
+                <h2>Grok</h2>
+                <p><a href="https://www.grok.com" target="_blank"> <strong>Grok</strong></a> és una IA creada per
+                    l'equip
+                    d'Elon Musk,"xAI." disenyada per a «respondre preguntes amb una mica d'enginy» i amb «una vena
+                    rebel»</p>
+                    <img src="imatges/Grok.webp" width="100px" height="100px" title="Logo Grok" alt="Logo Grok"/>
+                <h2>Deixa la teva valoració</h2>
+            </article>
+        </section>
+        <form action="submit" method="post">
+            <label for="username">Nom:</label>
+            <input type="text" name="username" placeholder="Escriu el teu nom"><br><br>
+            <label for="correu">Correu electrònic:</label>
+            <input type="text" name="password" placeholder="exemple@gmail.com"><br><br>
+             <label for="IA">Quina IA vols valorar?</label>
+            <select name="IA">
+             <option value="LovartAi">LovartAi</option>
+             <option value="ChatGPT">ChatGPT</option>
+             <option value="Grok">Grok</option>
+            </select><br><br>
+            <label for="ValoracióDelUsuari">Com valores aquesta IA?</label><br><br>
+            <input type="radio" name="opcion" value="opcio1"> Excel·lent
+            <input type="radio" name="opcion" value="opcion2"> Bona
+            <input type="radio" name="opcion" value="opcion2"> Millorable <br><br>
+            <label for="mensaje">Comentari:</label><br>
+            <textarea name="mensaje" rows="5" cols="40">Escriu aquí els teus comentaris...</textarea><br><br>
+            <input type="checkbox" name="opciones" value="opcion1"> Vull rebre novetats sobre la IA<br>
+            <br><input type="submit" value="Enviar">  
+
+        </form>
+        <section>
+
+
+        </section>
+
+        <section>
+
+        </section>
     </main>
+
     <footer></footer>
 </body>
+
 </html>
