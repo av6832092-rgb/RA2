@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="WebYune.css">
+    <meta charset="UTF-8">
+    <title>Frases aleatorias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #frase {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="mostrarFrase()">Te amo</button>
+
+    <p id="frase"></p>
+
+    <script>
+        const frases = [
+            "Me encanta cómo iluminas cualquier lugar al que llegas",
+            "Tienes una forma de mirar que me desarma por completo.",
+            "Contigo, incluso los días normales se sienten especiales.",
+            "Tu risa es mi sonido favorito.",
+            "Me haces querer ser una mejor persona cada día.",
+            "No sé cómo lo haces, pero siempre consigues calmarme.",
+            "Eres la mezcla perfecta entre ternura y fuerza.",
+            "Me fascina cómo piensas, tienes una mente preciosa.",
+            "Cada momento contigo vale la pena.",
+            "Tu forma de amar es un regalo.",
+            "Me encanta cómo cuidas de los demás, tienes un corazón enorme.",
+            "Eres tan auténtica que inspiras a cualquiera.",
+            "No hay nadie que me haga sentir tan en casa como tú.",
+            "Tu sonrisa tiene un efecto inmediato en mi ánimo.",
+            "Me enamoras un poco más cada vez que hablas de lo que te apasiona.",
+            "Eres increíblemente hermosa, por dentro y por fuera.",
+            "Me encanta cómo haces que todo parezca más sencillo.",
+            "Tu presencia me da paz.",
+            "Eres la persona más especial que he conocido.",
+            "Gracias por existir, de verdad."
+
+        ];
+
+        function mostrarFrase() {
+            const indice = Math.floor(Math.random() * frases.length);
+            document.getElementById("frase").textContent = frases[indice];
+        }
+    </script>
+
+</body>
+</html>
